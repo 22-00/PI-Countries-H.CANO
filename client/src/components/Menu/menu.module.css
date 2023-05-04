@@ -1,0 +1,42 @@
+/* menu.modules.css */
+
+.contenedor {
+    position: relative;
+  }
+  
+  .contenedor button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+  
+  .contenedor_menu {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 150px;
+  }
+  
+  .lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .lista li {
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    padding: 0.5rem;
+    text-align: center;
+    transition: background-color 0.2s ease;
+  }
+  
+  .lista li:hover {
+    background-color: #f2f2f2;
+  }
+  

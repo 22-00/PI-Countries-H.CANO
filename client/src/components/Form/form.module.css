@@ -1,0 +1,105 @@
+.contenedor {
+ 
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .errores{
+    color: red;
+  }
+
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #4d4d4d;
+    border-radius: 50px;
+  }
+  
+  .formulario label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .formulario input, select {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #bdb9b9;
+  }
+  
+  .contenedor button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2d4059;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .seleccionContainer {
+    display: flex;
+    margin-top: 35px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .seleccion {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 1px solid #bdb9b9;
+    border-radius: 4px;
+    padding-left: 7px;
+  }
+  
+  .seleccion button {
+    border: 2px solid #2d4059;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 8px;
+    padding: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .seleccion button:hover {
+    background-color: red;
+    color: #fff;
+  }
+  
+
+
+  .horizontal {
+    display: inline-block;
+  }
+  
+  
+  .searchCountry {
+    margin-top: 20px;
+  }
+
+  .searchCountry label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .searchCountry  input, select{
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #bdb9b9
+  }
+
+  /* background-image: url("https://i.pinimg.com/736x/e3/84/23/e38423b45fb786cb501697778b3dda2b.jpg"); */

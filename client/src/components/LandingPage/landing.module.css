@@ -1,0 +1,65 @@
+
+
+.contenedor {
+    display: flex;
+    background-image: url("https://i.pinimg.com/736x/e3/84/23/e38423b45fb786cb501697778b3dda2b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.titulo {
+    margin-top: 100px;
+    background-color: #2d4059;
+    width: 500px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 11px;
+}
+
+.contenedor_Button {
+    margin-top: 220px;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenedor_Button button {
+    font-size: 18px;
+    color: white;
+    width: 90px;
+    height: 46px;
+    background-color: #2d4059;
+   border: 1px solid  rgb(194, 187, 187);
+   border-radius: 11px;
+   cursor: pointer;
+}
+
+.contenedor_Button button:hover{
+   font-size: 20px;
+}
+
+
+
+.titulo h1 {
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    /* text-shadow: 1px 1px 1px rgb(235, 238, 244); */
+    /* margin: 0; */
+    font-size: 36px;
+    text-align: center;
+}
+
+/* box-shadow: 3px 3px 3px rgba(25, 25, 221, 0.5) */
+   
+/* background-image: url("https://fondosmil.com/fondo/69486.jpg"); */
+
+

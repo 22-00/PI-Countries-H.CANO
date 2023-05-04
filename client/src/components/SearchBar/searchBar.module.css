@@ -1,0 +1,85 @@
+  .contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 10px;
+    height: 60px;
+    border-bottom: 1px solid #2d4059;
+  }
+  
+  .contenedor_logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .logo {
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2d4059;
+  }
+
+  .logo:hover{
+    cursor: pointer;
+    color: #bdb9b9;
+  }
+  
+  ._form {
+    display: flex;
+    align-items: center;
+  }
+  
+  ._form input {
+    width: 390px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px #2d4059;
+  }
+  
+  datalist {
+    font-size: 16px;
+  }
+  
+  ._form button {
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: #2d4059;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contenedor_actividad {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contenedor_actividad a {
+    margin-left: 20px;
+    font-size: 19px;
+    color: #2d4059;
+    text-decoration: none;
+  }
+  
+  .contenedor_actividad a:hover {
+    color: #bdb9b9;
+    text-decoration: none;
+  }
+  
+  .contenedor_actividad a:visited {
+    color: #2d4059;
+    text-decoration: none;
+  }
+
+  .contenedor_actividad a:visited:hover{
+    color: #bdb9b9;
+  }
